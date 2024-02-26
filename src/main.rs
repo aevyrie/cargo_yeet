@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let cmd = clap::Command::new("cargo_yeet")
+    let cmd = clap::Command::new("cargo-yeet")
         .bin_name("cargo")
         .subcommand_required(true)
         .subcommand(
